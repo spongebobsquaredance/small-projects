@@ -1,0 +1,31 @@
+{
+  "name": "scaffold",
+  "version": "0.0.0",
+  "description": "Gulp build and file structure for quick project start-up",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spongebobsquaredance/scaffold.git"
+  },
+  "keywords": [
+    "gulp, build starter, javascript"
+  ],
+  "author": "carrie macdonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spongebobsquaredance/scaffold/issues"
+  },
+  "homepage": "https://github.com/spongebobsquaredance/scaffold",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-flatten": "^0.2.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-include": "^2.1.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5"
+  }
+}

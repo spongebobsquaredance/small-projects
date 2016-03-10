@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'Impact Label';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/impactlabel_regular/impact_label-webfont.woff') format('woff'),
+         url('fonts/impactlabel_regular/impact_label-webfont.ttf') format('ttf'),
+         url('fonts/impactlabel_regular/impact_label-webfont.eot') format('eot'),
+         url('fonts/impactlabel_regular/impact_label-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Impact Label Reversed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/impactlabel_reversed/impact_label_reversed-webfont.woff') format('woff'),
+         url('fonts/impactlabel_reversed/impact_label_reversed-webfont.ttf') format('ttf'),
+         url('fonts/impactlabel_reversed/impact_label_reversed-webfont.eot') format('eot'),
+         url('fonts/impactlabel_reversed/impact_label_reversed-webfont.svg') format('svg');
+}
+
+// Fallback Font Stacks
+$systemSans: Helvetica, Arial, sans-serif;
+$systemSerif: Georgia, Times, serif;
+
+// Imported fonts
+$impactlabel: 'Impact Label', $systemSans;
+$impactlabelreversed: 'Impact Label Reversed', $systemSans;
+
+// Icon font variable
+// $icomoon: 'icomoon';
+
+

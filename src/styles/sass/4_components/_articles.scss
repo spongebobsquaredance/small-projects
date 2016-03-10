@@ -1,0 +1,15 @@
+article {
+	overflow: hidden;
+	margin-top: 40px;
+	+ article {
+		margin-top: 2em;
+	}
+	h2 {
+		margin-bottom: 0.32em;
+	}
+	img {
+		max-width: 25%;
+		float: left;
+		margin-right: 20px;
+	}
+}
