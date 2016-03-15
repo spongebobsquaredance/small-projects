@@ -1,7 +1,22 @@
 body {
 	line-height: 1.25;
+	color: $coal;
+}
+a {
+	text-decoration: none;
+	color: $coal;
+	transition: color 0.75s;
+	&:hover {
+		color: $eraser;
+	}
+}
+img {
+	max-width: 100%;
 }
 .inner-wrapper {
 	margin: 0 auto;
 	width: 80%;
+}
+p {
+	margin: 0.5em 0;
 }

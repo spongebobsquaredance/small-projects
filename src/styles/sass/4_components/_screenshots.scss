@@ -1,0 +1,16 @@
+.screenshot {
+	float: left;
+	width: 45%;
+	+ .screenshot {
+		margin-left: 5%;
+	}
+	&.tall {
+		width: 20%;
+	}
+	a {
+		display: inline-block;
+		margin-top: 0.75em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+}

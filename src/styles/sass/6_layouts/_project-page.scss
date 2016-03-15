@@ -1,0 +1,21 @@
+.project-page {
+	background: $superlightgray;
+	padding: 2.5em 0 4em 0;
+	h3 {
+		-webkit-font-smoothing: antialiased;
+		font-weight: bold;
+	}
+	p {
+		width: 70%;
+		line-height: 1.45;
+		letter-spacing: 0.25px;
+	}
+	.site-link {
+		clear: left;
+		margin-top: 0.75em;
+		a {
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+}

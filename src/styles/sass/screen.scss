@@ -16,7 +16,6 @@
 // ----- Text Styles ----- //
 @import '2_text-styles/fonts';
 @import '2_text-styles/typographic-scale';
-@import '2_text-styles/homepage';
 
 
 // ----- Pieces ----- //
@@ -25,12 +24,15 @@
 
 // ----- Components ----- //
 @import '4_components/articles';
+@import '4_components/screenshots';
 
 
 // ----- Regions ----- //
 @import '5_regions/header';
 @import '5_regions/footer';
-
+@import '5_regions/project-imgs';
 
 // ----- Layouts ----- //
-// @import '6_layouts/';
+@import '6_layouts/project-page';
+
+

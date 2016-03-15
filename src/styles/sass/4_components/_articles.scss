@@ -12,4 +12,12 @@ article {
 		float: left;
 		margin-right: 20px;
 	}
+	&.project {
+		h3 a {
+			font-weight: bold;
+		}
+		h4 {
+			margin-top: 3px;
+		}
+	}
 }

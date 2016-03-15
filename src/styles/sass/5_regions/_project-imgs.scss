@@ -1,0 +1,13 @@
+.project-imgs {
+	overflow: hidden;
+	margin-top: 2.5em;
+	.inner-wrapper {
+		overflow: hidden;
+	}
+	.row {
+		overflow: hidden;
+		+ .row {
+			margin-top: 5%;
+		}
+	}
+}

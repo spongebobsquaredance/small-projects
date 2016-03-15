@@ -38,7 +38,7 @@ gulp.task('sass', function() {
 gulp.task('imgmin', function () {
 	gulp.src('src/imgs/*')
 		.pipe(imgmin())
-		.pipe(gulp.dest('src/imgs/*'));
+		.pipe(gulp.dest('build/imgs/'));
 });
 
 // Minify JS
@@ -72,7 +72,7 @@ gulp.task('copy-js', function() {
 
 // Copy Minified Images
 gulp.task('copy-imgs', function() {
-	return gulp.src('src/imgs/*')
+	return gulp.src('src/imgs/*.jpg')
 		.pipe(flatten())
   		.pipe(gulp.dest('build/imgs'));
 });

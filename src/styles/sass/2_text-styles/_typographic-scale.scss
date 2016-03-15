@@ -1,5 +1,9 @@
 // ----- Base Size: 16px, http://type-scale.com/ 'Major Third' ----- //
 
+body {
+	font-family: $systemSans;
+}
+
 h1 {
 	font-size: 2.441em;
 }
