@@ -2,7 +2,7 @@ article {
 	overflow: hidden;
 	margin-top: 40px;
 	+ article {
-		margin-top: 2em;
+		margin-top: 2.45em;
 	}
 	h2 {
 		margin-bottom: 0.32em;
@@ -15,9 +15,19 @@ article {
 	&.project {
 		h3 a {
 			font-weight: bold;
+			border-bottom: 4px solid rgba($moondust, 0.65);
+			padding-bottom: 4px;
+			-webkit-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+			-moz-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+			-ms-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+			-o-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+			transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+			&:hover {
+				border-color: $coal;
+			}
 		}
 		h4 {
-			margin-top: 3px;
+			margin-top: 14px;
 		}
 	}
 }

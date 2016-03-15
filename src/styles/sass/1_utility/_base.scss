@@ -6,9 +6,9 @@ a {
 	text-decoration: none;
 	color: $coal;
 	transition: color 0.75s;
-	&:hover {
-		color: $eraser;
-	}
+	// &:hover {
+	// 	color: $eraser;
+	// }
 }
 img {
 	max-width: 100%;
