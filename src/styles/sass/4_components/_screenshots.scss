@@ -1,10 +1,21 @@
 .screenshot {
 	float: left;
 	width: 45%;
+	@media (max-width: 700px) {
+		float: none;
+		width: 100%;
+	}
 	+ .screenshot {
 		margin-left: 5%;
+		@media (max-width: 700px) {
+			margin: 65px 0 0 0;
+		}
 	}
 	&.tall {
 		width: 20%;
+		@media (max-width: 700px) {
+			width: 65%;
+			margin: 65px auto 0 auto;
+		}
 	}
 }

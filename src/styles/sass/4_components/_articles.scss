@@ -1,6 +1,9 @@
 article {
 	overflow: hidden;
 	margin-top: 40px;
+	@media (max-width: 700px) {
+		margin-top: 20px;
+	}
 	+ article {
 		margin-top: 2.45em;
 	}
@@ -13,23 +16,35 @@ article {
 		margin-right: 20px;
 	}
 	&.project {
-		h3 a {
-			font-weight: bold;
-			border-bottom: 4px solid rgba($moondust, 0.65);
-			padding-bottom: 4px;
-			-webkit-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
-			-moz-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
-			-ms-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
-			-o-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
-			transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
-			&:hover {
-				border-color: $coal;
+		h3 {
+			@media (max-width: 700px) {
+				font-size: 1.35em;
 			}
-		}
+			a {
+				font-weight: bold;
+				border-bottom: 4px solid rgba($moondust, 0.65);
+				padding-bottom: 4px;
+				-webkit-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+				-moz-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+				-ms-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+				-o-transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+				transition: border-color .3s cubic-bezier(0.215,.61,.355,1);
+				&:hover {
+					border-color: $coal;
+				}
+				@media (max-width: 700px) {
+					border-bottom: 3px solid $moondust;
+					padding-bottom: 1px;
+				}
+			}
+		} 
 		h4 {
 			margin-top: 14px;
 			font-family: monospace;
 			font-size: 1.05em;
+			@media (max-width: 700px) {
+				margin-top: 9px;
+			}
 		}
 	}
 }

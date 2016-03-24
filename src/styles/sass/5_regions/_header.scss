@@ -1,6 +1,7 @@
 header {
 	overflow: hidden;
-	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	background: white;
 	h1 {
 		margin-top: 0.75em;
 		font-weight: bold;
@@ -8,5 +9,8 @@ header {
 	h2 {
 		font-size: 1.25em;
 		font-family: monospace;
+		@media (max-width: 700px) {
+			font-size: 1.15em;
+		}
 	}
 }

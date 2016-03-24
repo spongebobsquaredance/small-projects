@@ -1,6 +1,14 @@
+html,
+body {
+	height: 100%;
+}
 body {
 	line-height: 1.25;
 	color: $coal;
+	background: $superlightgray;
+	&.home {
+		background: white;
+	}
 }
 a {
 	text-decoration: none;
