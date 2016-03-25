@@ -3,6 +3,10 @@
 	font-weight: bold;
 	border: 2px solid $coal;
 	padding: 10px;
+	transition: background-color 1s;
+	&:hover {
+		background-color: $greentea;
+	}
 	@media (max-width: 700px) {
 		padding: 10px 0;
 		width: 99%;
